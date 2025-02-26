@@ -43,7 +43,7 @@ app.get("/", (req, res) => {
     res.send("API is running...");
 });
 
-const path = require("path");
+
 
 // Serve React frontend
 app.use(express.static(path.join(__dirname, "client", "build")));
